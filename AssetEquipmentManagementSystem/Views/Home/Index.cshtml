@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "メニュー";
+}
+
+<div class="text-center">
+    <table align="center">
+        <tr align="left" valign="middle">
+            <td>
+                <ul type="square">
+                    <li><a asp-area="" asp-controller="Home" asp-action="AddItem">新規登録</a></li>
+                </ul>
+            </td>
+            <td>
+                <ul type="square">
+                    取得した資産・備品をシステムに登録します。
+                </ul>
+            </td>
+        </tr>
+        <tr align="left" valign="middle">
+            <td>
+                <ul type="square">
+                    <li><a asp-area="" asp-controller="Home" asp-action="SearchItem">検索</a></li>
+                </ul>
+            </td>
+            <td>
+                <ul type="square">
+                    登録されている資産・備品を条件検索します。
+                </ul>
+            </td>
+        </tr>
+        <tr align="left" valign="middle">
+            <td>
+                <ul type="square">
+                    <li><a asp-area="" asp-controller="Home" asp-action="PrintList">台帳印刷</a></li>
+                </ul>
+            </td>
+            <td>
+                <ul type="square">
+                    各種台帳のフォーマットで一覧を印刷します。
+                </ul>
+            </td>
+        </tr>
+        <tr align="left" valign="middle">
+            <td>
+                <ul type="square">
+                    <li><a asp-area="" asp-controller="Home" asp-action="GetCheckPoint">チェックポイント取得</a></li>
+                </ul>
+            </td>
+            <td>
+                <ul type="square">
+                    チェックポイントを取得します。
+                </ul>
+            </td>
+        </tr>
+    </table>
+</div>
